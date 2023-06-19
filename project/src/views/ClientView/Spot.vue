@@ -12,7 +12,7 @@ import AMapLoader from "@amap/amap-jsapi-loader";
 
 window._AMapSecurityConfig = {
   // 安全密钥
-  securityJsCode: "a289e007534e4e1ba5aee472bfb89cdc",
+  securityJsCode: "请填写你申请的高德地图安全密钥",
 };
 
 export default {
@@ -34,7 +34,7 @@ export default {
     async initMap() {
       const AMap = await AMapLoader.load({
         // 你申请的Key
-        key: "1220847459b1f5b9e2fccf3fff199c2a",
+        key: "高德地图Key",
         version: "2.0",
         // 需要用到的插件
         plugins: [
